@@ -194,7 +194,7 @@ btn_yellow.addEventListener('click', async () => {
 
 
 async function nextSequence() {
-    if (level % 2 == 0) {
+    if (level % 3 == 0) {
         shuffle();
     }
     if (gamePattern[gamePattern.length-1] == "yellow") {
